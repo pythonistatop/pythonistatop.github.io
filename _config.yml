@@ -20,7 +20,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
-
+locale: zh-CN
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Feilong, Huang"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "一个编程多年的图书馆员，Pythonista 新人。"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
