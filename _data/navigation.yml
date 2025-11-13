@@ -7,3 +7,64 @@ main:
     url: /tags/
   - title: "关于"
     url: /about/
+  - title: "文集"
+    url: /collections/
+    
+# documentation links
+mmistakes:
+  - title: 新手上路
+    children:
+      - title: "快速上手"
+        url: /mmistakes/quick-start-guide/
+      - title: "结构"
+        url: /mmistakes/structure/
+      - title: "安装"
+        url: /mmistakes/installation/
+      - title: "升级"
+        url: /mmistakes/upgrading/
+  - title: 定制
+    children:
+      - title: "配置"
+        url: /mmistakes/configuration/
+      - title: "定制默认主题"
+        url: /mmistakes/overriding-theme-defaults/
+      - title: "导航"
+        url: /mmistakes/navigation/
+      - title: "UI 文字"
+        url: /mmistakes/ui-text/
+      - title: "作者"
+        url: /mmistakes/authors/
+      - title: "布局"
+        url: /mmistakes/layouts/
+  - title: 内容
+    children:
+      - title: "文章"
+        url: /mmistakes/posts/
+      - title: "页面"
+        url: /mmistakes/pages/
+      - title: "文集"
+        url: /mmistakes/collections/
+      - title: "辅助"
+        url: /mmistakes/helpers/
+      - title: "工具类"
+        url: /mmistakes/utility-classes/
+  - title: 附加
+    children:
+      - title: "样式表"
+        url: /mmistakes/stylesheets/
+      - title: "JavaScript"
+        url: /mmistakes/javascript/
+  - title: 元数据
+    children:
+      - title: "FAQ"
+        url: /mmistakes/faq/
+      - title: "历史"
+        url: /mmistakes/history/
+      - title: "贡献"
+        url: /mmistakes/contributing/
+      - title: "旧版 2.2 文档"
+        url: /mmistakes/docs-2-2/
+      - title: "许可"
+        url: /mmistakes/license/
+      - title: "术语 &amp; 隐私政策"
+        url: /terms/

@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Pythonista
+title: Pythonista 养成记
 email:
 description: Python 学习笔记
 twitter_username: username
@@ -103,6 +103,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _mmistakes
+  - scope:
+      path: ""
+      type: mmistakes
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "mmistakes"
 
 category_archive:
   type: liquid
@@ -110,3 +123,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  mmistakes:
+    output: true
+    permalink: /:collection/:path/
