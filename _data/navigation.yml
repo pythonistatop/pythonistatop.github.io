@@ -68,3 +68,9 @@ mmistakes:
         url: /mmistakes/license/
       - title: "术语 &amp; 隐私政策"
         url: /terms/
+
+python-tourials:
+  - title: 起步
+    children:
+      - title: "初次体验"
+        url: /python-tourials/first-try/

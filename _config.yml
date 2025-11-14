@@ -117,6 +117,20 @@ defaults:
       sidebar:
         nav: "mmistakes"
 
+  # _python-tourials
+  - scope:
+      path: ""
+      type: python-tourials
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "python-tourials"
+
 category_archive:
   type: liquid
   path: /categories/
@@ -126,5 +140,8 @@ tag_archive:
 
 collections:
   mmistakes:
+    output: true
+    permalink: /:collection/:path/
+  python-tourials:
     output: true
     permalink: /:collection/:path/
